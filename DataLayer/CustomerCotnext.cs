@@ -9,19 +9,19 @@ namespace DataLayer
 {
     public class CustomerCotnext : IDB<Customer, int>
     {
+        ColetoDBContext dBContext;
 
-        ColetoDBContext dbContext;
-        public CustomerCotnext(ColetoDBContext dbContext_)
+        public CustomerCotnext(ColetoDBContext dBContext_)
         {
-            this.dbContext = dbContext_;
+            this.dBContext = dBContext_;
         }
 
         public void Create(Customer customer)
         {
             try
             {
-                dbContext.Customers.Add(customer);
-                dbContext.SaveChanges();
+                dBContext.Customers.Add(customer);
+                dBContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -31,53 +31,22 @@ namespace DataLayer
 
         public void Delete(int key)
         {
-            try
-            {
-                Customer customerFromDb = Read(key);
-                dbContext.Customers.Remove(customerFromDb);
-                dbContext.SaveChanges();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            throw new NotImplementedException();
         }
 
         public Customer Read(int key)
         {
-            try
-            {
-                return dbContext.Customers.Find(key);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            throw new NotImplementedException();
         }
 
         public IEnumerable<Customer> ReadAll()
         {
-            try
-            {
-                return dbContext.Customers.ToList();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            throw new NotImplementedException();
         }
 
-        public void Update(Customer customer)
+        public void Update(Customer item)
         {
-            try
-            {
-                dbContext.Customers.Update(customer);
-                dbContext.SaveChanges();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            throw new NotImplementedException();
         }
     }
 }
