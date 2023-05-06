@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    public class CustomerCotnext : IDB<Customer, int>
+    public class CustomerContext : IDB<Customer, int>
     {
         ColetoDBContext dBContext;
 
-        public CustomerCotnext(ColetoDBContext dBContext_)
+        public CustomerContext(ColetoDBContext dBContext_)
         {
             this.dBContext = dBContext_;
         }

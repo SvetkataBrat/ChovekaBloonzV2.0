@@ -1,13 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NUnit.Framework;
+using DataLayer;
+using Microsoft.EntityFrameworkCore;
 
 namespace TestingLayer
 {
-    static class SetupFixture
+    [SetUpFixture]
+    public static class SetupFixture
     {
+        public static ColetoDBContext dbContext;
 
+        [OneTimeSetUp]
+        public static void OneTimeSetUp()
+        {
+            DbContextOptionsBuilder builder = new DbContextOptionsBuilder();
+            builder.UseInMemoryDatabase(Guid.NewGuid().ToString());
+            dbContext = new ColetoDBContext(builder.Options);
+        }
+
+        [OneTimeTearDown]
+        public static void OneTimeTearDown()
+        {
+            dbContext.Dispose();
+        }
     }
 }
