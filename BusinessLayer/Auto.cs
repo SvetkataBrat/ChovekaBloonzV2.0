@@ -18,7 +18,7 @@ namespace BusinessLayer
 
         public int Hp { get; set; }
 
-        public int Price { get; set; }
+        public double Price { get; set; }
 
         [ForeignKey("Salon")]
         public int SalonID { get; set; }
@@ -35,7 +35,7 @@ namespace BusinessLayer
             
         }
 
-        public Auto(int id, string brand, int hp, int price, int salonID, int customerID)
+        public Auto(int id, string brand, int hp, double price, int salonID, int customerID)
         {
             Id = id;
             Brand = brand;
