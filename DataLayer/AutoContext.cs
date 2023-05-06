@@ -10,7 +10,7 @@ namespace DataLayer
     public class AutoContext : IDB<Auto, int>
     {
         AutoContext dbContext;
-        public AutoContext(AutoContext dbContext_)
+        public AutoContext(ColetoDBContext dbContext_)
         {
             this.dbContext = dbContext_;
         }
