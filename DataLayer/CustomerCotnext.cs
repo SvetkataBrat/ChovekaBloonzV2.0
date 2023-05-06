@@ -10,17 +10,18 @@ namespace DataLayer
     public class CustomerCotnext : IDB<Customer, int>
     {
 
-        public CustomerCotnext(ColetoDBContext dBContext_)
+        ColetoDBContext dbContext;
+        public CustomerCotnext(ColetoDBContext dbContext_)
         {
-            this.dBContext = dBContext_;
+            this.dbContext = dbContext_;
         }
 
         public void Create(Customer customer)
         {
             try
             {
-                dBContext.Customers.Add(customer);
-                dBContext.SaveChanges();''
+                dbContext.Customers.Add(customer);
+                dbContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -30,22 +31,53 @@ namespace DataLayer
 
         public void Delete(int key)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Customer customerFromDb = Read(key);
+                dbContext.Customers.Remove(customerFromDb);
+                dbContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public Customer Read(int key)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return dbContext.Customers.Find(key);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public IEnumerable<Customer> ReadAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return dbContext.Customers.ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
-        public void Update(Customer item)
+        public void Update(Customer customer)
         {
-            throw new NotImplementedException();
+            try
+            {
+                dbContext.Customers.Update(customer);
+                dbContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }
