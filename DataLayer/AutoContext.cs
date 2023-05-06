@@ -9,8 +9,8 @@ namespace DataLayer
 {
     public class AutoContext : IDB<Auto, int>
     {
-        AutoContext dbContext;
-        public AutoContext(AutoContext dbContext_)
+        ColetoDBContext dbContext;
+        public AutoContext(ColetoDBContext dbContext_)
         {
             this.dbContext = dbContext_;
         }
@@ -32,8 +32,8 @@ namespace DataLayer
         {
             try
             {
-                Auto customerFromDb = Read(key);
-                dbContext.Auto.Remove(customerFromDb);
+                Auto autoFromDb = Read(key);
+                dbContext.Autos.Remove(autoFromDb);
                 dbContext.SaveChanges();
             }
             catch (Exception)
@@ -42,7 +42,7 @@ namespace DataLayer
             }
         }
 
-        public Customer Read(int key)
+        public Auto Read(int key)
         {
             try
             {
@@ -54,7 +54,7 @@ namespace DataLayer
             }
         }
 
-        public IEnumerable<Customer> ReadAll()
+        public IEnumerable<Auto> ReadAll()
         {
             try
             {
@@ -66,7 +66,7 @@ namespace DataLayer
             }
         }
 
-        public void Update(Customer item)
+        public void Update(Auto item)
         {
             try
             {
