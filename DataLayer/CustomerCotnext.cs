@@ -9,7 +9,6 @@ namespace DataLayer
 {
     public class CustomerCotnext : IDB<Customer, int>
     {
-        ColetoDBContext dBContext;
 
         public CustomerCotnext(ColetoDBContext dBContext_)
         {
