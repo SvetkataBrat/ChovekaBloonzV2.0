@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_1\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_2\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_1\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_2\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_1\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_2\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_1\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_2\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_1\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_2\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
