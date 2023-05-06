@@ -23,12 +23,12 @@ namespace BusinessLayer
         [ForeignKey("Salon")]
         public int SalonID { get; set; }
 
-        public Saloni Salon { get; set; }
+        //public Saloni Salon { get; set; }
 
         [ForeignKey("Customer")]
         public int CustomerID { get; set;}
 
-        public Customer Customer { get; set; }
+        //public Customer Customer { get; set; }
 
         private Auto()
         {
