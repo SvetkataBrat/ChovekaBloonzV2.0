@@ -21,7 +21,7 @@ namespace DataLayer
             try
             {
                 dBContext.Customers.Add(customer);
-                dBContext.SaveChanges();''
+                dBContext.SaveChanges();
             }
             catch (Exception)
             {
