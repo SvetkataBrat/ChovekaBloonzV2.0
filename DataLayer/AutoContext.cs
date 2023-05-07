@@ -9,11 +9,13 @@ namespace DataLayer
 {
     public class AutoContext : IDB<Auto, int>
     {
+
         ColetoDBContext dbContext;
         public AutoContext(ColetoDBContext dbContext_)
         {
             this.dbContext = dbContext_;
         }
+
 
         public void Create(Auto item)
         {
@@ -42,7 +44,7 @@ namespace DataLayer
             }
         }
 
-        public Auto Read(int key)
+        public Auto Read(int key, bool useNavigationalProperties = false)
         {
             try
             {
@@ -54,7 +56,7 @@ namespace DataLayer
             }
         }
 
-        public IEnumerable<Auto> ReadAll()
+        public IEnumerable<Auto> ReadAll(bool useNavigationalProperties = false)
         {
             try
             {
@@ -66,7 +68,7 @@ namespace DataLayer
             }
         }
 
-        public void Update(Auto item)
+        public void Update(Auto item, bool useNavigationalProperties = false)
         {
             try
             {

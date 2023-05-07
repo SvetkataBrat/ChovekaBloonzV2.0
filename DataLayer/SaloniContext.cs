@@ -42,7 +42,7 @@ namespace DataLayer
             }
         }
 
-        public Saloni Read(int key)
+        public Saloni Read(int key, bool useNavigationalProperties = false)
         {
             try
             {
@@ -54,7 +54,7 @@ namespace DataLayer
             }
         }
 
-        public IEnumerable<Saloni> ReadAll()
+        public IEnumerable<Saloni> ReadAll(bool useNavigationalProperties = false)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace DataLayer
             }
         }
 
-        public void Update(Saloni item)
+        public void Update(Saloni item, bool useNavigationalProperties = false)
         {
             try
             {
