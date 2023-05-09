@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,20 +8,21 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    public class SaloniContext : IDB<Saloni, int>
+    public class CustomerContext : IDB<Customer, int>
     {
-        ColetoDBContext dbContext;
-        public SaloniContext(ColetoDBContext dbContext_)
+        ColetoDBContext dBContext;
+
+        public CustomerContext(ColetoDBContext dBContext_)
         {
-            this.dbContext = dbContext_;
+            this.dBContext = dBContext_;
         }
 
-        public void Create(Saloni item)
+        public void Create(Customer customer)
         {
             try
             {
-                dbContext.Salons.Add(item);
-                dbContext.SaveChanges();
+                dBContext.Customers.Add(customer);
+                dBContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -32,9 +34,9 @@ namespace DataLayer
         {
             try
             {
-                Saloni salonFromDb = Read(key);
-                dbContext.Salons.Remove(salonFromDb);
-                dbContext.SaveChanges();
+                Customer custonerFromDB = Read(key);
+                dBContext.Customers.Remove(custonerFromDB);
+                dBContext.SaveChanges();
             }
             catch (Exception)
             {
@@ -42,11 +44,11 @@ namespace DataLayer
             }
         }
 
-        public Saloni Read(int key, bool useNavigationalProperties = false)
+        public Customer Read(int key, bool useNavigationalProperties = false)
         {
             try
             {
-                return dbContext.Salons.Find(key);
+                return dBContext.Customers.Find(key);
             }
             catch (Exception)
             {
@@ -54,11 +56,11 @@ namespace DataLayer
             }
         }
 
-        public IEnumerable<Saloni> ReadAll(bool useNavigationalProperties = false)
+        public IEnumerable<Customer> ReadAll(bool useNavigationalProperties = false)
         {
             try
             {
-                return dbContext.Salons.ToList();
+                return dBContext.Customers.ToList();
             }
             catch (Exception)
             {
@@ -66,12 +68,12 @@ namespace DataLayer
             }
         }
 
-        public void Update(Saloni item, bool useNavigationalProperties = false)
+        public void Update(Customer item, bool useNavigationalProperties = false)
         {
             try
             {
-                dbContext.Salons.Update(item);
-                dbContext.SaveChanges();
+                dBContext.Customers.Update(item);
+                dBContext.SaveChanges();
             }
             catch (Exception)
             {
