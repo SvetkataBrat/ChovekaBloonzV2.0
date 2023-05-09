@@ -116,7 +116,7 @@ namespace TestingLayer
             int cusotmersBefore = SetupFixture.dbContext.Customers.Count();
 
             context.Delete(customer.Id);
-            int salonsAfter = SetupFixture.dbContext.Salons.Count();
+            int salonsAfter = SetupFixture.dbContext.Customers.Count();
 
             Assert.IsTrue(cusotmersBefore - 1 == salonsAfter, "Delete() does not work!");
         }
