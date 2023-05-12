@@ -62,7 +62,7 @@ namespace TestingLayer
         {
             List<Auto> autos = (List<Auto>)context.ReadAll();
 
-            Assert.That(autos.Count != 0, "ReadAll() does not return cupboards!");
+            Assert.That(autos.Count != 0, "ReadAll() does not return cars!");
         }
 
         [Test]
