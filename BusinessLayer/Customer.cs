@@ -10,7 +10,7 @@ namespace BusinessLayer
 {
     public class Customer
     {
-        [Required]
+        [Key]
         public int Id { get; set; }
 
         [Required] 
@@ -19,18 +19,26 @@ namespace BusinessLayer
         [Required] 
         public string LastName { get; set; }
 
-        public List<Auto> cars { get; set; }
+        [Required] 
+        public string Address { get; set; }
+
+        [Required]
+        [Range(18, 99)]
+        public int Age { get; set; }
+
+        public List<Auto> Cars { get; set; }
 
         private Customer()
         {
-            this.cars = new List<Auto>();   
+            this.Cars = new List<Auto>();   
         }
 
-        public Customer(string fName, string lName)
+        public Customer(int id, string fName, string lName, int age_)
         {
-            this.cars = new List<Auto>();
+            this.Cars = new List<Auto>();
             this.FirstName = fName;
             this.LastName = lName;
+            this.Age = age_;
         }
     }
 }

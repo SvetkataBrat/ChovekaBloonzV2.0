@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,22 +32,53 @@ namespace DataLayer
 
         public void Delete(int key)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Customer custonerFromDB = Read(key);
+                dBContext.Customers.Remove(custonerFromDB);
+                dBContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
-        public Customer Read(int key)
+        public Customer Read(int key, bool useNavigationalProperties = false)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return dBContext.Customers.Find(key);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
-        public IEnumerable<Customer> ReadAll()
+        public IEnumerable<Customer> ReadAll(bool useNavigationalProperties = false)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return dBContext.Customers.ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
-        public void Update(Customer item)
+        public void Update(Customer item, bool useNavigationalProperties = false)
         {
-            throw new NotImplementedException();
+            try
+            {
+                dBContext.Customers.Update(item);
+                dBContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }
