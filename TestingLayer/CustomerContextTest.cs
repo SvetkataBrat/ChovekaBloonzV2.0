@@ -94,7 +94,7 @@ namespace TestingLayer
 
             List<Saloni> salons = (List<Saloni>)context.ReadAll();
 
-            Assert.That(salons.Count != 0 && context.Read(readCustomer.Id).Cars.Count == 1, "ReadAll() does not return cupboards!");
+            Assert.That(salons.Count != 0 && context.Read(readCustomer.Id).Cars.Count == 1, "ReadAll() does not return cars!");
         }
 
         [Test]
