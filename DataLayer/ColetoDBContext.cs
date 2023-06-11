@@ -27,7 +27,7 @@ namespace DataLayer
             // Lucho -
 
 
-            optionsBuilder.UseSqlServer("Server=TIMI-PC\\MSSQLSERVER03;Database=MusicDB;Trusted_Connection=True;Encrypt=false\" -Provider \"Microsoft.EntityFrameworkCore.SqlServer");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-BI5DLAH\\SQLEXPRESS;Database=ColetoV2;Trusted_Connection=True;Encrypt=false\" -Provider \"Microsoft.EntityFrameworkCore.SqlServer");
             base.OnConfiguring(optionsBuilder);
         }
 
