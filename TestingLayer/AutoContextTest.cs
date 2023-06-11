@@ -18,7 +18,7 @@ namespace TestingLayer
         [SetUp]
         public void Setup()
         {
-            auto = new(1113, "colajajeep", 100000, 99999, 1112, 1);
+            auto = new(1113, "colajajeep", 100000, 99999, 1112);
 
             context.Create(auto);
         }
@@ -38,7 +38,7 @@ namespace TestingLayer
         [Test]
         public void Create()
         {
-            Auto testAuto = new(1111, "BMW", 2, 4, 1112, 1);
+            Auto testAuto = new(1111, "BMW", 2, 4, 1112);
 
             int autossBefore = SetupFixture.dbContext.Autos.Count();
 

@@ -23,8 +23,8 @@ namespace TestingLayer
         {
             customer = new(0, "Ivan", "Petkov", 30);
 
-            car1 = new (0, "Mercedes GT63 S", 630, 129000, 1112, 0);
-            car2 = new (1, "Porche 911 TurboS", 100000, 99999, 1112, 1);
+            car1 = new (0, "Mercedes GT63 S", 630, 129000, 1112);
+            car2 = new (1, "Porche 911 TurboS", 100000, 99999, 1112);
 
             customer.Cars.Add(car1);
             customer.Cars.Add(car2);
@@ -87,7 +87,7 @@ namespace TestingLayer
         public void ReadAllWithNavigationalProperties()
         {
             Customer readCustomer = new (2, "Ignat", "Baronov", 32);
-            Auto car = new (4, "Ferrari", 12, 14, readCustomer.Id, customer.Id);
+            Auto car = new (4, "Ferrari", 12, 14, readCustomer.Id);
             SetupFixture.dbContext.Autos.Add(car);
             SetupFixture.dbContext.Customers.Add(readCustomer);
             context.Create(readCustomer);
