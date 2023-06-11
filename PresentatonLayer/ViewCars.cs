@@ -30,7 +30,17 @@ namespace PresentatonLayer
         
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if(ValidationManager.IsValidString(textBox1.Text))
+                {
+                    
+                }
+            }
+            catch
+            {
 
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
