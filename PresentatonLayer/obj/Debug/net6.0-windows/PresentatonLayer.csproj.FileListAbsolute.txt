@@ -4,7 +4,6 @@ C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\De
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\Debug\net6.0-windows\PresentatonLayer.dll
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\Debug\net6.0-windows\PresentatonLayer.pdb
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.csproj.AssemblyReference.cache
-C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.Form1.resources
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.csproj.GenerateResource.cache
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.AssemblyInfoInputs.cache
@@ -148,3 +147,5 @@ C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\De
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\Debug\net6.0-windows\ServiceLayer.pdb
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\bin\Debug\net6.0-windows\TestingLayer.pdb
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.csproj.CopyComplete
+C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.AddCars.resources
+C:\Users\Ицо\OneDrive\Работен плот\4ushki!\PresentatonLayer\obj\Debug\net6.0-windows\PresentatonLayer.ViewCars.resources

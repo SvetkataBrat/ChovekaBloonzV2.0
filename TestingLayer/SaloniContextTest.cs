@@ -22,8 +22,8 @@ namespace TestingLayer
         {
             saloni = new(1112, "Coleto", "coleto st.");
 
-            auto1 = new(1111, "BMW", 2, 4, 1112, 1);
-            auto2 = new(1113, "colajajeep", 100000, 99999, 1112, 1);
+            auto1 = new(1111, "BMW", 2, 4, 1112);
+            auto2 = new(1113, "colajajeep", 100000, 99999, 1112);
 
             saloni.Cars.Add(auto1);
             saloni.Cars.Add(auto2);
@@ -86,7 +86,7 @@ namespace TestingLayer
         public void ReadAllWithNavigationalProperties()
         {
             Saloni readSalon = new(1111, "colaja", "barona st.");
-            Auto auto = new(1, "Ferrari", 12, 14, readSalon.Id, 1);
+            Auto auto = new(1, "Ferrari", 12, 14, readSalon.Id);
             SetupFixture.dbContext.Autos.Add(auto);
             SetupFixture.dbContext.Salons.Add(readSalon);
             context.Create(readSalon);

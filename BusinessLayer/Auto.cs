@@ -35,14 +35,13 @@ namespace BusinessLayer
             
         }
 
-        public Auto(int id, string brand, int hp, double price, int salonID, int customerID)
+        public Auto(int id, string brand, int hp, double price, int salonID)
         {
             Id = id;
             Brand = brand;
             Hp = hp;
             Price = price;
             SalonID = salonID;
-            CustomerID = customerID;
         }
     }
 }
