@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingLayer", "TestingLaye
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{AC526A29-1982-4A0E-9BA9-16E51A216618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{4FDC6C03-1239-448B-87BF-0B90A7985EBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{1FCB9120-603F-45C6-8956-A5A2E0B2FD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{AC526A29-1982-4A0E-9BA9-16E51A216618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC526A29-1982-4A0E-9BA9-16E51A216618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC526A29-1982-4A0E-9BA9-16E51A216618}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FDC6C03-1239-448B-87BF-0B90A7985EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FDC6C03-1239-448B-87BF-0B90A7985EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FDC6C03-1239-448B-87BF-0B90A7985EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FDC6C03-1239-448B-87BF-0B90A7985EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCB9120-603F-45C6-8956-A5A2E0B2FD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCB9120-603F-45C6-8956-A5A2E0B2FD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCB9120-603F-45C6-8956-A5A2E0B2FD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCB9120-603F-45C6-8956-A5A2E0B2FD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

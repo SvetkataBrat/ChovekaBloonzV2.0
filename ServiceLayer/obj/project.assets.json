@@ -3263,19 +3263,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\itcak\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\itcak\\Desktop\\blooooonz\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\obj\\",
+      "projectPath": "C:\\Users\\itcak\\Desktop\\blooooonz\\ServiceLayer\\ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\itcak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\itcak\\Desktop\\blooooonz\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\itcak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3289,11 +3294,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\itcak\\Desktop\\blooooonz\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\itcak\\Desktop\\blooooonz\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\itcak\\Desktop\\blooooonz\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\itcak\\Desktop\\blooooonz\\DataLayer\\DataLayer.csproj"
             }
           }
         }
@@ -3323,7 +3328,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
