@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -11,6 +12,7 @@ namespace BusinessLayer
     public class Saloni
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
@@ -28,7 +30,6 @@ namespace BusinessLayer
 
         public Saloni(int id, string name, string adress)
         {
-            Id = id;
             Name = name;
             Adress = adress;
         }

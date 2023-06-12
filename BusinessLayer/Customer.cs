@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -11,6 +12,7 @@ namespace BusinessLayer
     public class Customer
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required] 
@@ -33,7 +35,7 @@ namespace BusinessLayer
             this.Cars = new List<Auto>();   
         }
 
-        public Customer(int id, string fName, string lName, int age_)
+        public Customer(string fName, string lName, int age_)
         {
             this.Cars = new List<Auto>();
             this.FirstName = fName;
