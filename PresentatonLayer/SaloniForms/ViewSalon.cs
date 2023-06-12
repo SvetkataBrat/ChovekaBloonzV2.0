@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLayer;
 using DataLayer;
+using PresentationLayer;
 using ServiceLayer;
 
 namespace PresentatonLayer.SaloniForms
@@ -35,17 +36,31 @@ namespace PresentatonLayer.SaloniForms
 
         private void ViewSaloniBack_Click(object sender, EventArgs e)
         {
-
+            Main main = new Main();
+            this.Hide();
+            main.ShowDialog();
+            this.Close();
         }
 
         private void ViewSaloniUpdate_Click(object sender, EventArgs e)
         {
-            Saloni updateSalon = (Saloni)
+            Saloni updateSalon = (Saloni)ViewSalonListbox.SelectedItem;
+            dbManagerSaloni.Update(updateSalon);
         }
 
         private void ViewSaloniDelete_Click(object sender, EventArgs e)
         {
-
+            ConfirmDeleteSalon confirmation = new ConfirmDeleteSalon();
+            confirmation.ShowDialog();
+            if (!confirmation.Visible)
+            {
+                if (confirmation.delete)
+                {
+                    Saloni deleteSalon = (Saloni)ViewSalonListbox.SelectedItem;
+                    dbManagerSaloni.Delete(deleteSalon.Id);
+                }
+                confirmation.Close();
+            }
         }
     }
 }
