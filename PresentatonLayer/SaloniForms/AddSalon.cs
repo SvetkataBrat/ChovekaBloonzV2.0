@@ -57,5 +57,13 @@ namespace PresentatonLayer.SaloniForms
             SalonNameTextbox.Text = string.Empty;
             SalonAdressTextbox.Text = string.Empty;
         }
+
+        private void AddSalonBack_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            this.Hide();
+            main.ShowDialog();
+            this.Close();
+        }
     }
 }

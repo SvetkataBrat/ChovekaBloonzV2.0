@@ -1,4 +1,6 @@
 ﻿using PresentationLayer;
+using PresentatonLayer.AutoForms;
+using PresentatonLayer.SaloniForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,22 +39,18 @@ namespace PresentatonLayer
 
         private void MainAddSalon_Click(object sender, EventArgs e)
         {
-           /*
             AddSalon addSalon = new AddSalon();
             this.Hide();
             addSalon.ShowDialog();
             this.Close();
-           */
         }
 
         private void MainViewSalons_Click(object sender, EventArgs e)
         {
-            /*
-            AddSalon addSalon = new AddSalon();
+            ViewSalon viewSalon = new ViewSalon();
             this.Hide();
-            addSalon.ShowDialog();
+            viewSalon.ShowDialog();
             this.Close();
-            */
         }
 
         private void MainAddCustomer_Click(object sender, EventArgs e)

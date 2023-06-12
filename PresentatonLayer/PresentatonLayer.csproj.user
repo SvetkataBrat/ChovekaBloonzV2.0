@@ -22,5 +22,14 @@
     <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SaloniForms\AddSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaloniForms\ConfirmDeleteSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaloniForms\ViewSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

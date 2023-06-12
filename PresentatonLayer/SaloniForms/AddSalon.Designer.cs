@@ -34,6 +34,7 @@
             this.SalonNameTextbox = new System.Windows.Forms.TextBox();
             this.SalonAdressTextbox = new System.Windows.Forms.TextBox();
             this.AddSalonButton = new System.Windows.Forms.Button();
+            this.AddSalonBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AddSalonLabel
@@ -83,7 +84,7 @@
             // AddSalonButton
             // 
             this.AddSalonButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AddSalonButton.Location = new System.Drawing.Point(320, 293);
+            this.AddSalonButton.Location = new System.Drawing.Point(268, 298);
             this.AddSalonButton.Name = "AddSalonButton";
             this.AddSalonButton.Size = new System.Drawing.Size(111, 33);
             this.AddSalonButton.TabIndex = 7;
@@ -91,11 +92,23 @@
             this.AddSalonButton.UseVisualStyleBackColor = true;
             this.AddSalonButton.Click += new System.EventHandler(this.AddSalonButton_Click);
             // 
+            // AddSalonBack
+            // 
+            this.AddSalonBack.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddSalonBack.Location = new System.Drawing.Point(430, 298);
+            this.AddSalonBack.Name = "AddSalonBack";
+            this.AddSalonBack.Size = new System.Drawing.Size(111, 33);
+            this.AddSalonBack.TabIndex = 8;
+            this.AddSalonBack.Text = "Back";
+            this.AddSalonBack.UseVisualStyleBackColor = true;
+            this.AddSalonBack.Click += new System.EventHandler(this.AddSalonBack_Click);
+            // 
             // AddSalon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AddSalonBack);
             this.Controls.Add(this.AddSalonButton);
             this.Controls.Add(this.SalonAdressTextbox);
             this.Controls.Add(this.SalonNameTextbox);
@@ -117,5 +130,6 @@
         private TextBox SalonNameTextbox;
         private TextBox SalonAdressTextbox;
         private Button AddSalonButton;
+        private Button AddSalonBack;
     }
 }
