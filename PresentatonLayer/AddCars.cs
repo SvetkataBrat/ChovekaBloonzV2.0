@@ -25,7 +25,6 @@ namespace PresentatonLayer
         public AddCars()
         {
             InitializeComponent();
-            
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -49,7 +48,7 @@ namespace PresentatonLayer
                       double price = double.Parse(textBox4.Text);
                       int salonID = int.Parse(textBox5.Text);
 
-                      Auto car = new Auto(id, brand, hp, price, salonID);
+                      Auto car = new Auto(brand, hp, price, salonID);
                       dbManagerAuto.Create(car);
 
                       MessageBox.Show("Car created successfully! :)", "😎", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -81,7 +80,7 @@ namespace PresentatonLayer
                     string adress = textBox8.Text;
 
 
-                    Saloni salon = new Saloni(id, name, adress);
+                    Saloni salon = new Saloni(name, adress);
                     dbManagerSaloni.Create(salon);
 
                     MessageBox.Show("Salon created successfully! :)", "😎", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -110,6 +109,11 @@ namespace PresentatonLayer
             textBox6.Text = string.Empty;
             textBox7.Text = string.Empty;
             textBox8.Text = string.Empty;
+        }
+
+        private void AddCars_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
