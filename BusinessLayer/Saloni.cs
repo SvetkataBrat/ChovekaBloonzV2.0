@@ -26,9 +26,8 @@ namespace BusinessLayer
             Cars = new List<Auto>();
         }
 
-        public Saloni(int id, string name, string adress)
+        public Saloni(string name, string adress)
         {
-            Id = id;
             Name = name;
             Adress = adress;
         }

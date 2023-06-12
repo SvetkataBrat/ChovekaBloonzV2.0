@@ -4,6 +4,12 @@
     <Compile Update="AddCars.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SaloniForms\AddSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaloniForms\ViewSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ViewCars.cs">
       <SubType>Form</SubType>
     </Compile>

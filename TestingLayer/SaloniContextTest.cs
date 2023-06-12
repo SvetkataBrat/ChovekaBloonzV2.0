@@ -20,7 +20,7 @@ namespace TestingLayer
         [SetUp]
         public void Setup()
         {
-            saloni = new(1112, "Coleto", "coleto st.");
+            saloni = new("Coleto", "coleto st.");
 
             auto1 = new(1111, "BMW", 2, 4, 1112);
             auto2 = new(1113, "colajajeep", 100000, 99999, 1112);
@@ -46,7 +46,7 @@ namespace TestingLayer
         [Test]
         public void Create()
         {
-            Saloni testSalon = new(1115, "cc", "kotkist");
+            Saloni testSalon = new("cc", "kotkist");
 
             int salonsBefore = SetupFixture.dbContext.Salons.Count();
 
@@ -85,7 +85,7 @@ namespace TestingLayer
         [Test]
         public void ReadAllWithNavigationalProperties()
         {
-            Saloni readSalon = new(1111, "colaja", "barona st.");
+            Saloni readSalon = new("colaja", "barona st.");
             Auto auto = new(1, "Ferrari", 12, 14, readSalon.Id);
             SetupFixture.dbContext.Autos.Add(auto);
             SetupFixture.dbContext.Salons.Add(readSalon);
