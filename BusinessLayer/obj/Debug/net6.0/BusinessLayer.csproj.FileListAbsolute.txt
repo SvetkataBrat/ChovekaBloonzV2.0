@@ -26,3 +26,31 @@ C:\Users\Ицо\OneDrive\Работен плот\4ushki!\BusinessLayer\obj\Debug
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\Ицо\OneDrive\Работен плот\4ushki!\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+E:\Programming\Choveka Bloonz\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+E:\Programming\Choveka Bloonz\BusinessLayer\bin\Debug\net6.0\BusinessLayer.runtimeconfig.json
+E:\Programming\Choveka Bloonz\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+E:\Programming\Choveka Bloonz\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
+E:\Programming\Choveka Bloonz\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\bin\Debug\net6.0\BusinessLayer.deps.json
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\bin\Debug\net6.0\BusinessLayer.runtimeconfig.json
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\bin\Debug\net6.0\BusinessLayer.dll
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\bin\Debug\net6.0\BusinessLayer.pdb
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.dll
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\refint\BusinessLayer.dll
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
+C:\Users\Timi\Source\Repos\ChovekaBloonzV2.0_\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll

@@ -4,7 +4,23 @@
     <Compile Update="AutoForms\AddCars.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="AutoForms\ViewCars.cs">
+=======
+    <Compile Update="CustomerForms\AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomerForms\ConfirmDeleteCUstomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomerForms\ViewCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewCars.cs">
+>>>>>>> 9997708b59fdfee77c60705752e76c129c162f82
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

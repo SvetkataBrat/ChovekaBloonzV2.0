@@ -4452,23 +4452,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ицо\\.nuget\\packages\\": {},
+    "C:\\Users\\Timi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj",
       "projectName": "TestingLayer",
-      "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj",
-      "packagesPath": "C:\\Users\\Ицо\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\obj\\",
+      "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj",
+      "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ицо\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4477,17 +4477,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj"
             }
           }
         }
@@ -4549,16 +4550,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
