@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessLayer;
+using PresentationLayer;
+using ServiceLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,10 +11,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PresentatonLayer
+namespace PresentatonLayer.AutoForms
 {
     public partial class ViewCars : Form
     {
+
+        private DbManager<Auto, int> dbManagerAuto = new DbManager<Auto, int>(ContextGenerator.GetAutoContext());
+        private Auto selectedAuto;
+
         public ViewCars()
         {
             InitializeComponent();
@@ -22,24 +29,58 @@ namespace PresentatonLayer
 
         }
 
-        private void change1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             textBox1.ReadOnly = false;
         }
 
-        private void change2(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            ViewCustomerGetName.ReadOnly = false;
+            textBox2.ReadOnly = false;
         }
 
-        private void change3(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            ViewCustomerGetName.ReadOnly = false;
+            textBox3.ReadOnly = false;
         }
 
-        private void change4(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            ViewCustomerGetName.ReadOnly = false;
+            textBox4.ReadOnly = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Auto updateAuto = (Auto)listBox1.SelectedItem;
+            dbManagerAuto.Update(updateAuto);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ConfirmDeleteAuto confirmation = new ConfirmDeleteAuto();
+            confirmation.ShowDialog();
+            if (!confirmation.Visible)
+            {
+                if (confirmation.delete)
+                {
+                    Auto deleteAuto = (Auto)listBox1.SelectedItem;
+                    dbManagerAuto.Delete(deleteAuto.Id);
+                }
+                confirmation.Close();
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            this.Hide();
+            main.ShowDialog();
+            this.Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
