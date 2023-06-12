@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj": {}
+    "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Ицо\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ицо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Ицо\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ицо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,15 +101,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -156,24 +154,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj": {
+    "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj",
         "projectName": "TestingLayer",
-        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj",
-        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\obj\\",
+        "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj",
+        "packagesPath": "C:\\Users\\Ицо\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ицо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,18 +180,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -255,7 +252,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

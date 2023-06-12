@@ -4204,23 +4204,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Timi\\.nuget\\packages\\": {},
+    "C:\\Users\\Ицо\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\PresentatonLayer\\PresentatonLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\PresentatonLayer\\PresentatonLayer.csproj",
       "projectName": "PresentatonLayer",
-      "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\PresentatonLayer\\PresentatonLayer.csproj",
-      "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\PresentatonLayer\\obj\\",
+      "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\PresentatonLayer\\PresentatonLayer.csproj",
+      "packagesPath": "C:\\Users\\Ицо\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\PresentatonLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ицо\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4229,24 +4229,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\DataLayer\\DataLayer.csproj"
+            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\DataLayer\\DataLayer.csproj"
             },
-            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\ServiceLayer\\ServiceLayer.csproj"
+            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\ServiceLayer\\ServiceLayer.csproj"
             },
-            "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj": {
-              "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_\\TestingLayer\\TestingLayer.csproj"
+            "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj": {
+              "projectPath": "C:\\Users\\Ицо\\OneDrive\\Работен плот\\4ushki!\\TestingLayer\\TestingLayer.csproj"
             }
           }
         }
@@ -4279,7 +4278,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
