@@ -262,6 +262,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddCars";
             this.Text = "AddCars";
+            this.Load += new System.EventHandler(this.AddCars_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

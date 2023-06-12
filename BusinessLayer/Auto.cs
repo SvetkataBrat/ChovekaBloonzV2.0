@@ -11,6 +11,7 @@ namespace BusinessLayer
     public class Auto
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         [Required]
@@ -35,9 +36,8 @@ namespace BusinessLayer
             
         }
 
-        public Auto(int id, string brand, int hp, double price, int salonID)
+        public Auto(string brand, int hp, double price, int salonID)
         {
-            Id = id;
             Brand = brand;
             Hp = hp;
             Price = price;
