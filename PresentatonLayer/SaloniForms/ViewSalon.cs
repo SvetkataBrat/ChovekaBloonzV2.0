@@ -18,7 +18,12 @@ namespace PresentatonLayer.SaloniForms
     {
         private DbManager<Saloni, int> dbManagerSaloni = new DbManager<Saloni, int>(ContextGenerator.GetSaloniContext());
         private Saloni selectedSalon;
-
+        
+        private void ViewSalon_Load(object sender, EventArgs e)
+        {
+            ViewSalonListbox.DataSource = dbManagerSaloni.ReadAll();
+        }
+        
         public ViewSalon()
         {
             InitializeComponent();
@@ -62,5 +67,7 @@ namespace PresentatonLayer.SaloniForms
                 confirmation.Close();
             }
         }
+
+       
     }
 }

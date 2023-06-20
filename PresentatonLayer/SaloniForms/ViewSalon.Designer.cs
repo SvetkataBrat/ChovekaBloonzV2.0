@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.ViewSalonListbox = new System.Windows.Forms.ListBox();
+            this.saloniBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ViewSalonNameLabel = new System.Windows.Forms.Label();
             this.ViewSaloniAdressLabel = new System.Windows.Forms.Label();
             this.ViewSaloniLabel = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.ViewSaloniBack = new System.Windows.Forms.Button();
             this.ViewSaloniUpdate = new System.Windows.Forms.Button();
             this.ViewSaloniDelete = new System.Windows.Forms.Button();
-            this.saloniBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.saloniBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,6 +54,10 @@
             this.ViewSalonListbox.Name = "ViewSalonListbox";
             this.ViewSalonListbox.Size = new System.Drawing.Size(141, 124);
             this.ViewSalonListbox.TabIndex = 0;
+            // 
+            // saloniBindingSource
+            // 
+            this.saloniBindingSource.DataSource = typeof(BusinessLayer.Saloni);
             // 
             // ViewSalonNameLabel
             // 
@@ -152,10 +156,6 @@
             this.ViewSaloniDelete.UseVisualStyleBackColor = true;
             this.ViewSaloniDelete.Click += new System.EventHandler(this.ViewSaloniDelete_Click);
             // 
-            // saloniBindingSource
-            // 
-            this.saloniBindingSource.DataSource = typeof(BusinessLayer.Saloni);
-            // 
             // ViewSalon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -174,6 +174,7 @@
             this.Controls.Add(this.ViewSalonListbox);
             this.Name = "ViewSalon";
             this.Text = "ViewSalon";
+            this.Load += new System.EventHandler(this.ViewSalon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.saloniBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming\\Choveka Bloonz\\PresentatonLayer\\PresentatonLayer.csproj": {}
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\PresentatonLayer\\PresentatonLayer.csproj": {}
   },
   "projects": {
-    "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,17 +80,21 @@
         }
       }
     },
-    "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\obj\\",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,14 +102,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -150,17 +160,21 @@
         }
       }
     },
-    "E:\\Programming\\Choveka Bloonz\\PresentatonLayer\\PresentatonLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\PresentatonLayer\\PresentatonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\PresentatonLayer\\PresentatonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\PresentatonLayer\\PresentatonLayer.csproj",
         "projectName": "PresentatonLayer",
-        "projectPath": "E:\\Programming\\Choveka Bloonz\\PresentatonLayer\\PresentatonLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Choveka Bloonz\\PresentatonLayer\\obj\\",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\PresentatonLayer\\PresentatonLayer.csproj",
+        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\PresentatonLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,23 +182,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj"
               },
-              "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\ServiceLayer.csproj"
               },
-              "E:\\Programming\\Choveka Bloonz\\TestingLayer\\TestingLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\TestingLayer\\TestingLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\TestingLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\TestingLayer.csproj"
               }
             }
           }
@@ -221,17 +236,21 @@
         }
       }
     },
-    "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\ServiceLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Choveka Bloonz\\ServiceLayer\\obj\\",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -239,17 +258,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -283,17 +303,21 @@
         }
       }
     },
-    "E:\\Programming\\Choveka Bloonz\\TestingLayer\\TestingLayer.csproj": {
+    "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\TestingLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\Choveka Bloonz\\TestingLayer\\TestingLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\TestingLayer.csproj",
         "projectName": "TestingLayer",
-        "projectPath": "E:\\Programming\\Choveka Bloonz\\TestingLayer\\TestingLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\Choveka Bloonz\\TestingLayer\\obj\\",
+        "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\TestingLayer.csproj",
+        "packagesPath": "C:\\Users\\Timi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\TestingLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -301,17 +325,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "E:\\Programming\\Choveka Bloonz\\DataLayer\\DataLayer.csproj"
+              "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Timi\\Source\\Repos\\ChovekaBloonzV2.0_3\\DataLayer\\DataLayer.csproj"
               }
             }
           }

@@ -26,10 +26,7 @@ namespace PresentationLayer
 
         private void ViewCustomers_Load(object sender, EventArgs e)
         {
-            /*foreach (Customer c in AllContexts.customerContext.ReadAll())
-            {
-                ViewCustomersList.Items.Add(c);
-            }*/
+            ViewCustomersList.DataSource = dbManagerCustomer.ReadAll();
         }
 
         private void ViewCustomerChangeName_Click(object sender, EventArgs e)

@@ -26,7 +26,7 @@ namespace PresentatonLayer.AutoForms
 
         private void ViewCars_Load(object sender, EventArgs e)
         {
-
+            listBox1.DataSource = dbManagerAuto.ReadAll();
         }
 
         private void button1_Click(object sender, EventArgs e)
